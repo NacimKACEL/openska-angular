@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>ES6 et TypeScript</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+		<link rel="stylesheet" href="styles.css">
+    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-lite.js"></script>
+	</head>
+	<body>
+
+		<div id="wrapper-global">
+
+			<h1>ES6 &amp; TypeScript</h1>
+
+			<div id="slideshow">
+				<div id="slides">
+					<div><img src="static/images/movies/starwars.jpg" alt=""></div>
+					<div><img src="static/images/movies/coco.jpg" alt=""></div>
+					<div><img src="static/images/movies/spiderman.jpg" alt=""></div>
+				</div>
+				<ul id="pagination">
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div>
+
+			<my-slideshow data-delay="2000">
+				<div><img src="static/images/movies/starwars.jpg" alt=""></div>
+        <div><img src="static/images/movies/coco.jpg" alt=""></div>
+        <div><img src="static/images/movies/spiderman.jpg" alt=""></div>
+			</my-slideshow>
+
+		</div><!-- #wrapper-global -->
+
+    <script src="dist/typescript.js"></script>
+    <script type="module" src="dist/main.js"></script>
+
+	</body>
+</html>

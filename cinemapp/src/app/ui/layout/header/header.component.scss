@@ -1,0 +1,20 @@
+#header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+#logo {
+  margin: 5px 0 -25px 0;
+  text-align: center;
+}
+
+#logo>img {
+  border-radius: 30px;
+}
+
+#logo,
+#logo>img {
+  background-color: white;
+}

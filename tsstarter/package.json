@@ -1,0 +1,28 @@
+{
+  "name": "tsstarter",
+  "version": "1.0.0",
+  "description": "TypeScript starter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webtraining/tsstarter.git"
+  },
+  "main": "system-loader.js",
+  "scripts": {
+    "start": "concurrently \"npm run start-transpiler\" \"npm run start-server\" --raw --success last",
+    "start-server": "lite-server -c bs-config.json",
+    "start-transpiler": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^1.1.0",
+    "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.1",
+    "concurrently": "^3.5.1",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.7.2"
+  }
+}

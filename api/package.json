@@ -1,0 +1,50 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API for the Angular app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "api": "node server.js",
+    "api-universal": "node universal.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webtraining/api.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@angular/animations": "^5.2.9",
+    "@angular/cdk": "^5.2.4",
+    "@angular/common": "^5.2.9",
+    "@angular/compiler": "^5.2.9",
+    "@angular/core": "^5.2.9",
+    "@angular/forms": "^5.2.9",
+    "@angular/http": "^5.2.9",
+    "@angular/material": "^5.2.4",
+    "@angular/platform-browser": "^5.2.9",
+    "@angular/platform-browser-dynamic": "^5.2.9",
+    "@angular/platform-server": "^5.2.9",
+    "@angular/router": "^5.2.9",
+    "@angular/service-worker": "^5.2.9",
+    "@nguniversal/express-engine": "5.0.0-beta.6",
+    "@nguniversal/module-map-ngfactory-loader": "5.0.0-beta.6",
+    "compression": "^1.7.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
+    "rxjs": "^5.5.7",
+    "validator": "^9.4.1",
+    "zone.js": "^0.8.20"
+  },
+  "devDependencies": {
+    "@types/compression": "^0.0.35",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/csurf": "^1.9.35",
+    "@types/express": "^4.11.1",
+    "@types/jsonwebtoken": "^7.2.5",
+    "@types/node": "^8.9.5"
+  }
+}

@@ -1,0 +1,17 @@
+$mobile-width: 459px;
+
+#movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  @media all and (max-width: $mobile-width) {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+#movies-list>cinemapp-movies-item {
+  flex: calc(100% / 3);
+  @media all and (max-width: $mobile-width) {
+    flex: 100%;
+  }
+}

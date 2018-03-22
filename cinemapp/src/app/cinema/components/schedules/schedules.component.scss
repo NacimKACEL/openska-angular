@@ -1,0 +1,17 @@
+$mobile-width: 459px;
+
+#schedules {
+  display: flex;
+  flex-wrap: wrap;
+  @media all and (max-width: $mobile-width) {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+#schedules>div {
+  flex: 50%;
+  @media all and (max-width: $mobile-width) {
+    flex: 100%;
+  }
+}
